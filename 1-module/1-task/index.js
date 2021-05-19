@@ -1,3 +1,8 @@
 function factorial(n) {
-  // ваш код...
+  let countFactorial = 1;
+  while (n) {
+    countFactorial *= n--;
+  }
+  return countFactorial;
 }
+
