@@ -4,9 +4,9 @@ function print(text) {
 
 function isValid(name) {
   if (name.length > 4 && name.indexOf(' ') == -1) {
-    alert("Вы все сделали правильно!")
+    return true;
   } else {
-    alert("Имя должность содержать боллее 4 букв и записано без пробелов")
+    return false;
   }
 }
 
