@@ -3,7 +3,7 @@ function print(text) {
 }
 
 function isValid(name) {
-  if (name.length >= 4 && name.indexOf(' ') == -1) {
+  if (name.length >= 4 && name.indexOf(' ') == -1 && !isFinite(name)) {
      return true;
    } else {
      return false;
